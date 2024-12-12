@@ -4,8 +4,12 @@ import WhatsAppButton from '../components/WhatsAppButton';
 import { Play, Tv, Smartphone, Monitor } from 'lucide-react';
 
 const Index = () => {
-  const handleSubscribe = () => {
-    window.open('https://wa.me/1234567890', '_blank');
+  const handleSubscribeYearly = () => {
+    window.open('https://api.whatsapp.com/send/?phone=%2B17027602707&text=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83+%D8%B3%D8%A8%D8%A7%D9%8A%D8%AF%D8%B1+%D8%B3%D9%86%D8%A9', '_blank');
+  };
+
+  const handleSubscribeHalfYearly = () => {
+    window.open('https://api.whatsapp.com/send/?phone=%2B17027602707&text=%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83+%D8%B3%D8%A8%D8%A7%D9%8A%D8%AF%D8%B1+6+%D8%A3%D8%B4%D9%87%D8%B1', '_blank');
   };
 
   return (
@@ -19,7 +23,7 @@ const Index = () => {
             className="w-48 h-48 mx-auto mb-8 object-contain"
           />
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Spider TV</h1>
-          <p className="text-xl md:text-2xl mb-8">شاهد أفضل الأفلام والمسلسلات والبث المباشر</p>
+          <p className="text-xl md:text-2xl mb-8">اقوى مشغل ميديا فى العالم لتشغيل كل البث المباشر مع مكتبات الافلام والمسلسلات</p>
           <div className="flex justify-center gap-8 mb-12">
             <div className="flex items-center gap-2">
               <Tv className="h-6 w-6" />
@@ -57,7 +61,7 @@ const Index = () => {
               "دعم جميع الأجهزة",
               "بث مباشر",
             ]}
-            onClick={handleSubscribe}
+            onClick={handleSubscribeHalfYearly}
             image="https://saleshulk.com/wp-content/uploads/2024/10/1-1000x1000.jpg"
           />
           <PricingCard
@@ -71,7 +75,7 @@ const Index = () => {
               "بث مباشر",
               "خصم 25%",
             ]}
-            onClick={handleSubscribe}
+            onClick={handleSubscribeYearly}
             image="https://saleshulk.com/wp-content/uploads/2024/10/D-1000x1000.jpg"
           />
         </div>
