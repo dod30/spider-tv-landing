@@ -13,6 +13,11 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white px-4">
         <div className="text-center">
+          <img 
+            src="https://saleshulk.com/wp-content/uploads/2024/10/1-1.png" 
+            alt="Spider TV Logo" 
+            className="w-48 h-48 mx-auto mb-8 object-contain"
+          />
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Spider TV</h1>
           <p className="text-xl md:text-2xl mb-8">شاهد أفضل الأفلام والمسلسلات والبث المباشر</p>
           <div className="flex justify-center gap-8 mb-12">
@@ -53,6 +58,7 @@ const Index = () => {
               "بث مباشر",
             ]}
             onClick={handleSubscribe}
+            image="https://saleshulk.com/wp-content/uploads/2024/10/1-1000x1000.jpg"
           />
           <PricingCard
             title="اشتراك سنوي"
@@ -66,6 +72,7 @@ const Index = () => {
               "خصم 25%",
             ]}
             onClick={handleSubscribe}
+            image="https://saleshulk.com/wp-content/uploads/2024/10/D-1000x1000.jpg"
           />
         </div>
       </section>

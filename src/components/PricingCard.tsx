@@ -7,6 +7,7 @@ interface PricingCardProps {
   features: string[];
   period: string;
   onClick: () => void;
+  image: string;
 }
 
 const PricingCard: React.FC<PricingCardProps> = ({
@@ -15,13 +16,15 @@ const PricingCard: React.FC<PricingCardProps> = ({
   features,
   period,
   onClick,
+  image,
 }) => {
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 transition-transform hover:scale-105">
+      <img src={image} alt={title} className="w-full h-48 object-cover rounded-lg mb-4" />
       <h3 className="text-2xl font-bold text-spider-primary mb-4">{title}</h3>
       <div className="mb-6">
-        <span className="text-4xl font-bold">${price}</span>
-        <span className="text-gray-600">/{period}</span>
+        <span className="text-4xl font-bold">{price}</span>
+        <span className="text-gray-600"> د.ك/{period}</span>
       </div>
       <ul className="space-y-3 mb-6">
         {features.map((feature, index) => (
