@@ -13,15 +13,17 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-spider-primary to-spider-secondary">
+    <div className="min-h-screen" style={{ backgroundColor: '#f30303' }}>
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white px-4">
         <div className="text-center">
-          <img 
-            src="https://saleshulk.com/wp-content/uploads/2024/10/1-1.png" 
-            alt="Spider TV Logo" 
-            className="w-48 h-48 mx-auto mb-8 object-contain"
-          />
+          <div className="bg-white rounded-full p-4 w-fit mx-auto mb-8">
+            <img 
+              src="https://saleshulk.com/wp-content/uploads/2024/10/1-1.png" 
+              alt="Spider TV Logo" 
+              className="w-48 h-48 object-contain"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Spider TV</h1>
           <p className="text-xl md:text-2xl mb-8">اقوى مشغل ميديا فى العالم لتشغيل كل البث المباشر مع مكتبات الافلام والمسلسلات</p>
           <div className="flex justify-center gap-8 mb-12">
