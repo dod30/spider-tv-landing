@@ -44,7 +44,7 @@ const Index = () => {
         <div className="container mx-auto grid md:grid-cols-2 gap-8 max-w-4xl">
           <PricingCard
             title="اشتراك نصف سنوي"
-            price={50}
+            price={13}
             period="6 أشهر"
             features={[
               "مشاهدة غير محدودة",
@@ -56,7 +56,7 @@ const Index = () => {
           />
           <PricingCard
             title="اشتراك سنوي"
-            price={90}
+            price={20}
             period="سنة"
             features={[
               "مشاهدة غير محدودة",

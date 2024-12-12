@@ -20,9 +20,9 @@ export default {
     extend: {
       colors: {
         spider: {
-          primary: "#243949",
-          secondary: "#517fa4",
-          accent: "#9b87f5",
+          primary: "#ea384c",
+          secondary: "#ff6b81",
+          accent: "#ff4757",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

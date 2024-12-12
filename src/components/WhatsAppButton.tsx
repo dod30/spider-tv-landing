@@ -11,9 +11,10 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors animate-float"
+      className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full shadow-lg transition-colors animate-float flex items-center gap-2"
     >
       <MessageCircle className="h-6 w-6" />
+      <span>اشتراك سبايدر</span>
     </button>
   );
 };
