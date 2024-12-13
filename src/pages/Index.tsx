@@ -1,7 +1,7 @@
 import React from 'react';
 import PricingCard from '../components/PricingCard';
 import WhatsAppButton from '../components/WhatsAppButton';
-import { Play, Tv, Smartphone, Monitor } from 'lucide-react';
+import { Play, Tv, Smartphone, Monitor, Film, List, Video, Lock, PlaySquare, Apple, Android, Tv2 } from 'lucide-react';
 
 const Index = () => {
   const handleSubscribeYearly = () => {
@@ -49,6 +49,45 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Why Spider TV Section */}
+      <section className="py-20 px-4 bg-white/10">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center text-white mb-12">لماذا Spider TV</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <Film className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">أفلام</h3>
+              <p>تشغيل كل الافلام بجميع الصيغ واللغات والترجمات</p>
+            </div>
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <Tv className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">مسلسلات</h3>
+              <p>تشغيل كل مواسم المسلسلات بكل اللغات</p>
+            </div>
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <List className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">قائمة المفضلة</h3>
+              <p>امكانية عمل اكثر من مفضله للقنوات</p>
+            </div>
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <Video className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">تسجيل البث المباشر</h3>
+              <p>التسجيل من البث المباشر</p>
+            </div>
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <Lock className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">غلق باقات</h3>
+              <p>امكانية قفل القنوات وباقات الافلام والمسلسلات</p>
+            </div>
+            <div className="bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center">
+              <PlaySquare className="w-12 h-12 mx-auto mb-4" />
+              <h3 className="text-xl font-bold mb-2">تشغيل التطبيق اتوماتيك</h3>
+              <p>تشغيل التطبيق اتوماتيك على قناه بضغطه واحده (لكبار السن)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section id="pricing" className="py-20 px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-12">اختر خطتك</h2>
@@ -80,6 +119,39 @@ const Index = () => {
             onClick={handleSubscribeYearly}
             image="https://saleshulk.com/wp-content/uploads/2024/10/D-1000x1000.jpg"
           />
+        </div>
+      </section>
+
+      {/* Apps Section */}
+      <section className="py-20 px-4 bg-white/10">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-center text-white mb-12">التطبيقات</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <a 
+              href="https://apps.apple.com/us/app/the-spider-hd/id1458565575" 
+              target="_blank" 
+              className="flex flex-col items-center bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center hover:bg-white/30 transition-colors"
+            >
+              <Apple className="w-16 h-16 mb-4" />
+              <span className="text-xl font-bold">App Store</span>
+            </a>
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.sp_playermm.app" 
+              target="_blank" 
+              className="flex flex-col items-center bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center hover:bg-white/30 transition-colors"
+            >
+              <Android className="w-16 h-16 mb-4" />
+              <span className="text-xl font-bold">Google Play</span>
+            </a>
+            <a 
+              href="https://www.samsung.com/us/appstore/app.do?appId=G21131016992" 
+              target="_blank" 
+              className="flex flex-col items-center bg-white/20 p-6 rounded-lg backdrop-blur-sm text-white text-center hover:bg-white/30 transition-colors"
+            >
+              <Tv2 className="w-16 h-16 mb-4" />
+              <span className="text-xl font-bold">Samsung Store</span>
+            </a>
+          </div>
         </div>
       </section>
 
