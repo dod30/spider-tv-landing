@@ -1,7 +1,7 @@
 import React from 'react';
 import PricingCard from '../components/PricingCard';
 import WhatsAppButton from '../components/WhatsAppButton';
-import { Play, Tv, Smartphone, Monitor, Film, List, Video, Lock, PlaySquare, Apple, Android, Tv2 } from 'lucide-react';
+import { Play, Tv, Smartphone, Monitor, Film, List, Video, Lock, PlaySquare, Apple, Tv2 } from 'lucide-react';
 
 const Index = () => {
   const handleSubscribeYearly = () => {
@@ -140,7 +140,7 @@ const Index = () => {
               target="_blank" 
               className="flex flex-col items-center bg-white/10 p-8 rounded-xl backdrop-blur-sm text-white text-center hover:bg-white/20 transition-colors"
             >
-              <Android className="w-16 h-16 mb-4" />
+              <Smartphone className="w-16 h-16 mb-4" />
               <span className="text-xl font-bold">Google Play</span>
             </a>
             <a 
