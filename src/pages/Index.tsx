@@ -54,32 +54,32 @@ const Index = () => {
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-center text-white mb-12">لماذا Spider TV</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <Film className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">أفلام</h3>
               <p>تشغيل كل الافلام بجميع الصيغ واللغات والترجمات</p>
             </div>
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <Tv className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">مسلسلات</h3>
               <p>تشغيل كل مواسم المسلسلات بكل اللغات</p>
             </div>
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <List className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">قائمة المفضلة</h3>
               <p>امكانية عمل اكثر من مفضله للقنوات</p>
             </div>
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <Video className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">تسجيل البث المباشر</h3>
               <p>التسجيل من البث المباشر</p>
             </div>
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <Lock className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">غلق باقات</h3>
               <p>امكانية قفل القنوات وباقات الافلام والمسلسلات</p>
             </div>
-            <div className="bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors">
+            <div className="bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors">
               <PlaySquare className="w-12 h-12 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">تشغيل التطبيق اتوماتيك</h3>
               <p>تشغيل التطبيق اتوماتيك على قناه بضغطه واحده (لكبار السن)</p>
