@@ -130,7 +130,7 @@ const Index = () => {
             <a 
               href="https://apps.apple.com/us/app/the-spider-hd/id1458565575" 
               target="_blank" 
-              className="flex flex-col items-center bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors"
+              className="flex flex-col items-center bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors"
             >
               <Apple className="w-16 h-16 mb-4" />
               <span className="text-xl font-bold">App Store</span>
@@ -138,7 +138,7 @@ const Index = () => {
             <a 
               href="https://play.google.com/store/apps/details?id=com.sp_playermm.app" 
               target="_blank" 
-              className="flex flex-col items-center bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors"
+              className="flex flex-col items-center bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors"
             >
               <Smartphone className="w-16 h-16 mb-4" />
               <span className="text-xl font-bold">Google Play</span>
@@ -146,7 +146,7 @@ const Index = () => {
             <a 
               href="https://www.samsung.com/us/appstore/app.do?appId=G21131016992" 
               target="_blank" 
-              className="flex flex-col items-center bg-spider-primary/20 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-spider-primary/30 transition-colors"
+              className="flex flex-col items-center bg-white/90 backdrop-blur-sm p-8 rounded-xl text-white text-center hover:bg-white/80 transition-colors"
             >
               <Tv2 className="w-16 h-16 mb-4" />
               <span className="text-xl font-bold">Samsung Store</span>
